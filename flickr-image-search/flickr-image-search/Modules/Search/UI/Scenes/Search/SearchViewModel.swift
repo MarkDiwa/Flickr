@@ -18,7 +18,7 @@ class SearchViewModel: SearchViewModelProtocol {
     private var currentPage = 1
     private var lastSearchedText = ""
     
-    var isFetching: Bool = false
+    var isFetching = false
     
 }
 
