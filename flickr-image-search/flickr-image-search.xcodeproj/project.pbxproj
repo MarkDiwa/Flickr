@@ -8,20 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		7D46D619279BBA3300478EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D618279BBA3300478EEE /* AppDelegate.swift */; };
-		7D46D61B279BBA3300478EEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D61A279BBA3300478EEE /* SceneDelegate.swift */; };
 		7D46D61D279BBA3300478EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D61C279BBA3300478EEE /* ViewController.swift */; };
 		7D46D620279BBA3300478EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D46D61E279BBA3300478EEE /* Main.storyboard */; };
 		7D46D622279BBA3400478EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D46D621279BBA3400478EEE /* Assets.xcassets */; };
 		7D46D625279BBA3400478EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D46D623279BBA3400478EEE /* LaunchScreen.storyboard */; };
 		7D46D630279BBA3400478EEE /* flickr_image_searchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D62F279BBA3400478EEE /* flickr_image_searchTests.swift */; };
-		7D46D63A279BBA3400478EEE /* flickr_image_searchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D639279BBA3400478EEE /* flickr_image_searchUITests.swift */; };
-		7D46D63C279BBA3400478EEE /* flickr_image_searchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D63B279BBA3400478EEE /* flickr_image_searchUITestsLaunchTests.swift */; };
 		7D46D650279BBFF700478EEE /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D64F279BBFF700478EEE /* SearchAPI.swift */; };
 		7D46D655279BC96600478EEE /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D654279BC96600478EEE /* APIClient.swift */; };
 		7D46D657279BC98800478EEE /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D656279BC98800478EEE /* APIClientProtocol.swift */; };
 		7D46D65A279BC9B100478EEE /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D659279BC9B100478EEE /* APIError.swift */; };
 		7D46D65D279BC9E100478EEE /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D65C279BC9E100478EEE /* Closures.swift */; };
 		7D46D662279BCACE00478EEE /* URL+QueryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D661279BCACE00478EEE /* URL+QueryItem.swift */; };
+		7D46D664279BCB5200478EEE /* APIClient+SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D663279BCB5200478EEE /* APIClient+SearchAPI.swift */; };
+		7D46D666279BD0AD00478EEE /* SearchServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D665279BD0AD00478EEE /* SearchServiceProtocol.swift */; };
+		7D46D668279BD0CD00478EEE /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D667279BD0CD00478EEE /* SearchService.swift */; };
+		7D46D66D279BD53800478EEE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D66B279BD53800478EEE /* SearchViewController.swift */; };
+		7D46D66E279BD53800478EEE /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D46D66C279BD53800478EEE /* SearchViewController.xib */; };
+		7D46D672279BD63100478EEE /* UICollectionViewCell+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D671279BD63100478EEE /* UICollectionViewCell+Nib.swift */; };
+		7D46D674279BD74F00478EEE /* SearchViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D673279BD74F00478EEE /* SearchViewModelProtocol.swift */; };
+		7D46D676279BD8DD00478EEE /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D675279BD8DD00478EEE /* SearchViewModel.swift */; };
+		7D46D678279BDB0700478EEE /* SearchPhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D677279BDB0700478EEE /* SearchPhotosResponse.swift */; };
+		7D46D67D279BE7BA00478EEE /* SearchPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D67B279BE7BA00478EEE /* SearchPhotoCollectionViewCell.swift */; };
+		7D46D67E279BE7BA00478EEE /* SearchPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D46D67C279BE7BA00478EEE /* SearchPhotoCollectionViewCell.xib */; };
+		7D46D681279BE7D700478EEE /* SearchPhotoViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D680279BE7D700478EEE /* SearchPhotoViewModelProtocol.swift */; };
+		7D46D683279BE81700478EEE /* SearchPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D682279BE81700478EEE /* SearchPhotoViewModel.swift */; };
+		7D46D686279BE9FF00478EEE /* Array+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D685279BE9FF00478EEE /* Array+Index.swift */; };
+		7D46D68A279C03D300478EEE /* SearchPhotoRequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D689279C03D300478EEE /* SearchPhotoRequestParameters.swift */; };
+		7D46D68E279C0C6200478EEE /* Encodable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46D68D279C0C6200478EEE /* Encodable+JSON.swift */; };
 		EF6CE7387BF618979D648902 /* Pods_flickr_image_search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF8FF275144BB62118112BB /* Pods_flickr_image_search.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +60,6 @@
 		7C0DE590C569BDF1842DEBD3 /* Pods-flickr-image-search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr-image-search.release.xcconfig"; path = "Target Support Files/Pods-flickr-image-search/Pods-flickr-image-search.release.xcconfig"; sourceTree = "<group>"; };
 		7D46D615279BBA3300478EEE /* flickr-image-search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flickr-image-search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D46D618279BBA3300478EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D46D61A279BBA3300478EEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7D46D61C279BBA3300478EEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D46D61F279BBA3300478EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D46D621279BBA3400478EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,14 +68,28 @@
 		7D46D62B279BBA3400478EEE /* flickr-image-searchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flickr-image-searchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D46D62F279BBA3400478EEE /* flickr_image_searchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickr_image_searchTests.swift; sourceTree = "<group>"; };
 		7D46D635279BBA3400478EEE /* flickr-image-searchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flickr-image-searchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D46D639279BBA3400478EEE /* flickr_image_searchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickr_image_searchUITests.swift; sourceTree = "<group>"; };
-		7D46D63B279BBA3400478EEE /* flickr_image_searchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickr_image_searchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7D46D64F279BBFF700478EEE /* SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
 		7D46D654279BC96600478EEE /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		7D46D656279BC98800478EEE /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
 		7D46D659279BC9B100478EEE /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		7D46D65C279BC9E100478EEE /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		7D46D661279BCACE00478EEE /* URL+QueryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryItem.swift"; sourceTree = "<group>"; };
+		7D46D663279BCB5200478EEE /* APIClient+SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+SearchAPI.swift"; sourceTree = "<group>"; };
+		7D46D665279BD0AD00478EEE /* SearchServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchServiceProtocol.swift; sourceTree = "<group>"; };
+		7D46D667279BD0CD00478EEE /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		7D46D66B279BD53800478EEE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7D46D66C279BD53800478EEE /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		7D46D671279BD63100478EEE /* UICollectionViewCell+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Nib.swift"; sourceTree = "<group>"; };
+		7D46D673279BD74F00478EEE /* SearchViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModelProtocol.swift; sourceTree = "<group>"; };
+		7D46D675279BD8DD00478EEE /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		7D46D677279BDB0700478EEE /* SearchPhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosResponse.swift; sourceTree = "<group>"; };
+		7D46D67B279BE7BA00478EEE /* SearchPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D46D67C279BE7BA00478EEE /* SearchPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		7D46D680279BE7D700478EEE /* SearchPhotoViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoViewModelProtocol.swift; sourceTree = "<group>"; };
+		7D46D682279BE81700478EEE /* SearchPhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoViewModel.swift; sourceTree = "<group>"; };
+		7D46D685279BE9FF00478EEE /* Array+Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Index.swift"; sourceTree = "<group>"; };
+		7D46D689279C03D300478EEE /* SearchPhotoRequestParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoRequestParameters.swift; sourceTree = "<group>"; };
+		7D46D68D279C0C6200478EEE /* Encodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+JSON.swift"; sourceTree = "<group>"; };
 		EBF8FF275144BB62118112BB /* Pods_flickr_image_search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flickr_image_search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,7 +132,6 @@
 			children = (
 				7D46D617279BBA3300478EEE /* flickr-image-search */,
 				7D46D62E279BBA3400478EEE /* flickr-image-searchTests */,
-				7D46D638279BBA3400478EEE /* flickr-image-searchUITests */,
 				7D46D616279BBA3300478EEE /* Products */,
 				E165492DA2E9859838EEE307 /* Pods */,
 				57E1CD60F5CE77A99AA698E6 /* Frameworks */,
@@ -128,7 +153,6 @@
 			children = (
 				7D46D626279BBA3400478EEE /* Info.plist */,
 				7D46D618279BBA3300478EEE /* AppDelegate.swift */,
-				7D46D61A279BBA3300478EEE /* SceneDelegate.swift */,
 				7D46D61C279BBA3300478EEE /* ViewController.swift */,
 				7D46D621279BBA3400478EEE /* Assets.xcassets */,
 				7D46D623279BBA3400478EEE /* LaunchScreen.storyboard */,
@@ -146,15 +170,6 @@
 				7D46D62F279BBA3400478EEE /* flickr_image_searchTests.swift */,
 			);
 			path = "flickr-image-searchTests";
-			sourceTree = "<group>";
-		};
-		7D46D638279BBA3400478EEE /* flickr-image-searchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7D46D639279BBA3400478EEE /* flickr_image_searchUITests.swift */,
-				7D46D63B279BBA3400478EEE /* flickr_image_searchUITestsLaunchTests.swift */,
-			);
-			path = "flickr-image-searchUITests";
 			sourceTree = "<group>";
 		};
 		7D46D648279BBD3E00478EEE /* Modules */ = {
@@ -180,6 +195,8 @@
 		7D46D64A279BBF2000478EEE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7D46D688279C03AF00478EEE /* Request */,
+				7D46D687279C03A300478EEE /* Response */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,6 +212,8 @@
 		7D46D64C279BBF3D00478EEE /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7D46D665279BD0AD00478EEE /* SearchServiceProtocol.swift */,
+				7D46D667279BD0CD00478EEE /* SearchService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -202,6 +221,8 @@
 		7D46D64D279BBF4E00478EEE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				7D46D679279BE78700478EEE /* Components */,
+				7D46D669279BD4F800478EEE /* Scenes */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -209,6 +230,7 @@
 		7D46D64E279BBFE700478EEE /* API */ = {
 			isa = PBXGroup;
 			children = (
+				7D46D663279BCB5200478EEE /* APIClient+SearchAPI.swift */,
 				7D46D64F279BBFF700478EEE /* SearchAPI.swift */,
 			);
 			path = API;
@@ -259,6 +281,7 @@
 		7D46D65E279BCAB000478EEE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7D46D66F279BD61B00478EEE /* UIKit */,
 				7D46D65F279BCABA00478EEE /* Foundation */,
 			);
 			path = Extensions;
@@ -267,6 +290,8 @@
 		7D46D65F279BCABA00478EEE /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				7D46D68C279C0C5300478EEE /* Codable */,
+				7D46D684279BE9F000478EEE /* Array */,
 				7D46D660279BCABF00478EEE /* URL */,
 			);
 			path = Foundation;
@@ -278,6 +303,100 @@
 				7D46D661279BCACE00478EEE /* URL+QueryItem.swift */,
 			);
 			path = URL;
+			sourceTree = "<group>";
+		};
+		7D46D669279BD4F800478EEE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D66A279BD50800478EEE /* Search */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7D46D66A279BD50800478EEE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D66B279BD53800478EEE /* SearchViewController.swift */,
+				7D46D675279BD8DD00478EEE /* SearchViewModel.swift */,
+				7D46D673279BD74F00478EEE /* SearchViewModelProtocol.swift */,
+				7D46D66C279BD53800478EEE /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7D46D66F279BD61B00478EEE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D670279BD62000478EEE /* UICollectionViewCell */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7D46D670279BD62000478EEE /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D671279BD63100478EEE /* UICollectionViewCell+Nib.swift */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		7D46D679279BE78700478EEE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D67A279BE78E00478EEE /* CollectionViewCells */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7D46D67A279BE78E00478EEE /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D67F279BE7C300478EEE /* SearchPhoto */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		7D46D67F279BE7C300478EEE /* SearchPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D67B279BE7BA00478EEE /* SearchPhotoCollectionViewCell.swift */,
+				7D46D682279BE81700478EEE /* SearchPhotoViewModel.swift */,
+				7D46D680279BE7D700478EEE /* SearchPhotoViewModelProtocol.swift */,
+				7D46D67C279BE7BA00478EEE /* SearchPhotoCollectionViewCell.xib */,
+			);
+			path = SearchPhoto;
+			sourceTree = "<group>";
+		};
+		7D46D684279BE9F000478EEE /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D685279BE9FF00478EEE /* Array+Index.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		7D46D687279C03A300478EEE /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D677279BDB0700478EEE /* SearchPhotosResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		7D46D688279C03AF00478EEE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D689279C03D300478EEE /* SearchPhotoRequestParameters.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		7D46D68C279C0C5300478EEE /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				7D46D68D279C0C6200478EEE /* Encodable+JSON.swift */,
+			);
+			path = Codable;
 			sourceTree = "<group>";
 		};
 		E165492DA2E9859838EEE307 /* Pods */ = {
@@ -301,6 +420,7 @@
 				7D46D612279BBA3300478EEE /* Frameworks */,
 				7D46D613279BBA3300478EEE /* Resources */,
 				2EBCFAAC5BD33A21DD707669 /* [CP] Embed Pods Frameworks */,
+				7D46D68B279C058D00478EEE /* Linter */,
 			);
 			buildRules = (
 			);
@@ -397,6 +517,8 @@
 			files = (
 				7D46D625279BBA3400478EEE /* LaunchScreen.storyboard in Resources */,
 				7D46D622279BBA3400478EEE /* Assets.xcassets in Resources */,
+				7D46D67E279BE7BA00478EEE /* SearchPhotoCollectionViewCell.xib in Resources */,
+				7D46D66E279BD53800478EEE /* SearchViewController.xib in Resources */,
 				7D46D620279BBA3300478EEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +557,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flickr-image-search/Pods-flickr-image-search-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7D46D68B279C058D00478EEE /* Linter */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Linter;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n \"${PODS_ROOT}/SwiftLint/swiftlint\"\nelse\n echo \"Not running SwiftLint/swiftlint because we are building for Release\"\nfi\n";
+		};
 		DF0F21A5A251A9A890423B7E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,15 +604,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D46D68A279C03D300478EEE /* SearchPhotoRequestParameters.swift in Sources */,
 				7D46D61D279BBA3300478EEE /* ViewController.swift in Sources */,
+				7D46D67D279BE7BA00478EEE /* SearchPhotoCollectionViewCell.swift in Sources */,
 				7D46D65D279BC9E100478EEE /* Closures.swift in Sources */,
+				7D46D676279BD8DD00478EEE /* SearchViewModel.swift in Sources */,
+				7D46D681279BE7D700478EEE /* SearchPhotoViewModelProtocol.swift in Sources */,
+				7D46D683279BE81700478EEE /* SearchPhotoViewModel.swift in Sources */,
+				7D46D664279BCB5200478EEE /* APIClient+SearchAPI.swift in Sources */,
 				7D46D619279BBA3300478EEE /* AppDelegate.swift in Sources */,
+				7D46D672279BD63100478EEE /* UICollectionViewCell+Nib.swift in Sources */,
 				7D46D650279BBFF700478EEE /* SearchAPI.swift in Sources */,
 				7D46D655279BC96600478EEE /* APIClient.swift in Sources */,
 				7D46D662279BCACE00478EEE /* URL+QueryItem.swift in Sources */,
-				7D46D61B279BBA3300478EEE /* SceneDelegate.swift in Sources */,
+				7D46D686279BE9FF00478EEE /* Array+Index.swift in Sources */,
+				7D46D66D279BD53800478EEE /* SearchViewController.swift in Sources */,
 				7D46D657279BC98800478EEE /* APIClientProtocol.swift in Sources */,
+				7D46D668279BD0CD00478EEE /* SearchService.swift in Sources */,
+				7D46D68E279C0C6200478EEE /* Encodable+JSON.swift in Sources */,
+				7D46D674279BD74F00478EEE /* SearchViewModelProtocol.swift in Sources */,
+				7D46D678279BDB0700478EEE /* SearchPhotosResponse.swift in Sources */,
 				7D46D65A279BC9B100478EEE /* APIError.swift in Sources */,
+				7D46D666279BD0AD00478EEE /* SearchServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,8 +641,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D46D63A279BBA3400478EEE /* flickr_image_searchUITests.swift in Sources */,
-				7D46D63C279BBA3400478EEE /* flickr_image_searchUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,7 +807,6 @@
 				INFOPLIST_FILE = "flickr-image-search/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -684,7 +834,6 @@
 				INFOPLIST_FILE = "flickr-image-search/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
